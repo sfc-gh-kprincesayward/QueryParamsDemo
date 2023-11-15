@@ -58,7 +58,8 @@ options = [
     [1, 2, 3],              # List
     (4, 5, 6),              # Tuple
     {"key": "value"},       # Dictionary
-    {7, 8, 9}               # Set
+    {7, 8, 9},              # Set
+    ""                      # Empty string
 ]
 
 selected_options = st.selectbox("Select an option to set the query_param value:", options, format_func=lambda x: f"{str(type(x))}:  {str(x)}")
