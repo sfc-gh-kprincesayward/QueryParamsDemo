@@ -8,6 +8,19 @@ import streamlit as st
 st.title("Duplicate Page for Query Params API Demo!")
 st.markdown("[Download link for the streamlit wheel file](https://github.com/willhuang1997/QueryParamsDemo/blob/main/streamlit-1.28.1-py2.py3-none-any.whl)")
 
+options = [
+    42,                     # Integer
+    3.14,                   # Float
+    "Hello, Streamlit!",    # String
+    True,                   # Boolean
+    [1, 2, 3],              # List
+    [4,"Birds",
+    (4, 5, 6),              # Tuple
+    {"key": "value"},       # Dictionary
+    {7, 8, 9},              # Set
+    ""                      # Empty string
+]
+
 selected_options = st.selectbox("Select an option to set the query_param value:", options, format_func=lambda x: f"{str(type(x))}:  {str(x)}")
 
 check_clear = st.button("Run this code: ```st.query_params.clear()```")
