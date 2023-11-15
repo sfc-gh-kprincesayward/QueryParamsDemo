@@ -42,7 +42,7 @@ if check_get_all:
     st.write(st.query_params.get_all('PARAM_1'))
 
 check_get = st.button(f"Run this code: ```st.write(st.query_params.get('PARAM_1'))```")
-if check_get_all:
+if check_get:
     st.write(st.query_params.get('PARAM_1'))
 
 check_get_default = st.button(f"Run this code: ```st.write(st.query_params.get('PARAM_1', 'DEFAULT_VALUE'))```")
@@ -95,7 +95,7 @@ if check_get_all:
     st.write(st.query_params.get_all('PARAM_1'))
 
 check_get = st.button(f"Run this code: ```st.write(st.query_params.get('PARAM_1'))```")
-if check_get_all:
+if check_get:
     st.write(st.query_params.get('PARAM_1'))
 
 check_get_default = st.button(f"Run this code: ```st.write(st.query_params.get('PARAM_1', 'DEFAULT_VALUE'))```")
