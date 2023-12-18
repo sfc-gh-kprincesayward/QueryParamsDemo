@@ -61,6 +61,14 @@ if check_get:
 check_get_default = st.button(f"Run this code: ```st.write(st.query_params.get('PARAM_1', 'DEFAULT_VALUE'))```")
 if check_get_default:
     st.write(st.query_params.get('PARAM_1', default='DEFAULT_VALUE'))
+
+check_set_embed = st.button(f"Run this code: ```st.query_params.embed = 'embed'```")
+if check_set_embed:
+    st.query_params.embed = 'embed'
+
+check_set_embed_options = st.button(f"Run this code: ```st.query_params.embed_options = 'embed_options'```")
+if check_set_embed_options:
+    st.query_params.embed_options = 'embed_options'
     """)
 
 options = [
@@ -115,3 +123,12 @@ if check_get:
 check_get_default = st.button(f"Run this code: ```st.write(st.query_params.get('PARAM_1', 'DEFAULT_VALUE'))```")
 if check_get_default:
     st.write(st.query_params.get('PARAM_1', default='DEFAULT_VALUE'))
+
+check_set_embed = st.button(f"Run this code: ```st.query_params.embed = 'embed'```")
+if check_set_embed:
+    st.query_params.embed = 'embed'
+
+check_set_embed_options = st.button(f"Run this code: ```st.query_params.embed_options = 'embed_options'```")
+if check_set_embed_options:
+    st.query_params.embed_options = 'embed_options'
+    
