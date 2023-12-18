@@ -1,12 +1,12 @@
 import streamlit as st
 st.title("Duplicate Page for Query Params API Demo!")
-st.markdown("[Download link for the streamlit wheel file](https://github.com/willhuang1997/QueryParamsDemo/blob/main/streamlit-1.28.1-py2.py3-none-any.whl)")
+st.markdown("[Download link for the streamlit wheel file](https://github.com/willhuang1997/QueryParamsDemo/blob/main/streamlit-1.28.2-py2.py3-none-any.whl)")
 
 with st.expander("Click here to see the code:"):
     st.code("""
 import streamlit as st
 st.title("Duplicate Page for Query Params API Demo!")
-st.markdown("[Download link for the streamlit wheel file](https://github.com/willhuang1997/QueryParamsDemo/blob/main/streamlit-1.28.1-py2.py3-none-any.whl)")
+st.markdown("[Download link for the streamlit wheel file](https://github.com/willhuang1997/QueryParamsDemo/blob/main/streamlit-1.28.2-py2.py3-none-any.whl)")
 
 options = [
     42,                     # Integer
